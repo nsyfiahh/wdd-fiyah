@@ -1,0 +1,143 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffe1e8;
+  color: #1a1a1a;
+  margin: 30px;
+  padding: 20px;
+}
+
+header {
+  background-image: url("image 2.jpg");
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(1,1,1,0.4);
+}
+
+h1 {
+  color: #a41353;
+  font-family: 'Lucida Handwriting', Cursive;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #a41353;
+  font-family: 'Lucida Handwriting', Cursive;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+nav {
+  margin: 20px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ff3333;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  color: #ff3333;
+  text-decoration: underline;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.image-row img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.image-row img:hover {
+  transform: scale(1.05);
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+blockquote {
+  font-style: italic;
+  color: #a41353;
+  border-left: 4px solid #003366;
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+ol {
+  background-color: #ffe1e8;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(1,1,1,0.4);
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #b30000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff3333;
+}
+
+.back-link {
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-image: url("image 2.jpg");
+  background-color: #fff;
+  box-shadow: 1 4px 8px rgba(1,1,1,0.4);
+}
+
+th, td {
+  border: 3px solid #f66b99;
+  padding: 30px;
+  text-align: center;
+}
+
+th {
+  background-color: #fa539d;
+  color: white;
+}
+
+img {
+  width: 140px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(1,1,1,0.5);
+}
+
+div {
+  background-color: #ffe1e8;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(1,1,1,0.4);
+}
